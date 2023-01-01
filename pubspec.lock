@@ -80,6 +80,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  github:
+    dependency: "direct main"
+    description:
+      name: github
+      sha256: "86c83dd73ab22810f78e73c7ec3f84d37345d0cca40c0cc4cfe2b999259077be"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.7.0"
   http:
     dependency: "direct main"
     description:
@@ -104,6 +112,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: "3520fa844009431b5d4491a5a778603520cdc399ab3406332dcc50f93547258c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.7.0"
   lints:
     dependency: transitive
     description:

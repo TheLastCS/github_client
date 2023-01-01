@@ -5,7 +5,8 @@ import 'package:http/http.dart' as http;
 import 'package:oauth2/oauth2.dart' as oauth2;
 import 'package:url_launcher/url_launcher.dart';
 
-final _authorizationEndpoint = Uri.parse('https://github.com/login/oauth/authorize');
+final _authorizationEndpoint =
+    Uri.parse('https://github.com/login/oauth/authorize');
 final _tokenEndpoint = Uri.parse('https://github.com/login/oauth/access_token');
 
 class GithubLoginWidget extends StatefulWidget {
@@ -26,13 +27,13 @@ class GithubLoginWidget extends StatefulWidget {
 }
 
 typedef AuthenticatedBuilder = Widget Function(
-  BuildContext context, oauth2.Client client
-);
+    BuildContext context, oauth2.Client client);
 
 class _GithubLoginState extends State<GithubLoginWidget> {
   HttpServer? _redirectServer;
   oauth2.Client? _client;
 
+  @override
   Widget build(BuildContext context) {
     final client = _client;
     if (client != null) {

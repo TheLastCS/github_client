@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  github: ^9.7.0
   http: ^0.13.5
   oauth2: ^2.0.1
   url_launcher: ^6.1.7
