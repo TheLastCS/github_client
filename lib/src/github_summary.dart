@@ -50,7 +50,7 @@ class _GitHubSummaryState extends State<GitHubSummary> {
             children: [
               RepositoriesList(gitHub: widget.gitHub),
               AssignedIssuesList(gitHub: widget.gitHub),
-              PullRequestList(gitHub: widget.gitHub),
+              PullRequestsList(gitHub: widget.gitHub),
             ],
           ),
         )
